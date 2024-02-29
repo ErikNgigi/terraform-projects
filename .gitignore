@@ -30,3 +30,7 @@ crash.log
 
 # Ignore .terraform directories from Terraform 0.9 and earlier
 **/.terraform/*
+
+# Ignore .infracost directories
+.infracost/
+**/.infracost/*
