@@ -1,0 +1,32 @@
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfstate*
+*.plan
+
+# Ignore any files with sensitive information such as
+# AWS access keys, passwords, or private keys
+*.pem
+*.key
+*.cer
+*.crt
+*.p12
+*.pfx
+
+# Ignore override files as they're usually used to override resources
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraform directories from Terraform 0.9 and earlier
+**/.terraform/*
